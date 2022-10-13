@@ -1,31 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/*
+--heading-font: "Shadows Into Light";
+--paragraph-font: cursive, Helvetica, sans-serif;
+*/
+
 body {
     background-color: #fcfbfb; 
+    font-family: cursive, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#E63946;
+    font-family: "Shadows Into Light";
+}
+h2 {
+    margin: 0;
 }
 
 .logo {
     width: 80px;
 }
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 #content {
-    max-width: 1600;
+    max-width: 1600px;
     margin: 0 auto;    
 }
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: black;
     color: white;
 }
 .home-title {
-    color: white;
+    color: black;
+    font-family: "Shadows Into Light";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
-    color: white;
+    color: black;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -36,6 +59,12 @@ h4 {
 main section {
     text-align: center;
 }
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
 #background {
     background-color: #457B9D;
     height: 725px;
@@ -44,6 +73,11 @@ main section {
     background-color:#E63946;
     color: white;
     text-decoration: none;
+    font-family: cursive, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #396E94;
@@ -53,6 +87,10 @@ main section {
     background-color: #F1FAEE;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
     background-color: #E63946;
@@ -60,16 +98,23 @@ main section {
 }
 .msg {
     background-color:#457B9D;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: white;
+    font-family: "Shadows Into Light";
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color:#1D3557;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: white;
@@ -84,3 +129,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+.social img{
+    padding-top: 15px;
+}

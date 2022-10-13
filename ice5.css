@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(102, 102, 102);
+    text-align: center;
+ }
+
+.circleTitle {
+    width: 105%;
+    
+ }
+
+.deskTime {
+    float: center;
+    width: 10%;
+    border: 10px solid black;
+    margin: 40px;
+    border-radius: 50%;
+ }
+
+.circleGraphic {
+    float: center;
+    width: 10%;
+    border: 10px solid black;
+    margin: 40px;
+    border-radius: 50%;
+}
+
+.theMan {
+    float: center;
+    width: 10%;
+    border: 10px solid black;
+    margin: 40px;
+    border-radius: 50%;
+}
