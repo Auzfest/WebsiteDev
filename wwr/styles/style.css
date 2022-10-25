@@ -16,9 +16,17 @@ body {
 header {
     background-color:#E63946;
     font-family: "Shadows Into Light";
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 h2 {
     margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .logo {
@@ -31,6 +39,12 @@ h2 {
     max-width: 1600px;
     margin: 0 auto;    
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a {
     text-align: center;
     color: white;
