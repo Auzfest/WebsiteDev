@@ -102,7 +102,7 @@ h4 {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10, 200px);
+    grid-template-columns: repeat(10, 150px);
     justify-content: space-around;
     
 }
