@@ -232,6 +232,81 @@ footer p a:hover {
     padding-top: 15px;
 }
 
+/*
+Subpage
+*/
+
+.subGrid {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px;
+    padding: 100px;
+    padding-bottom: 25px;
+
+}
+
+.salmon {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    border: 10px solid #396E94;
+    border-radius: 15%;
+}
+.IdahoHead {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.IdahoPara {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding: 150px;
+
+}
+.rafters {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    border: 10px solid #396E94;
+    border-radius: 15%;
+}
+.UtahHead {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.UtahPara {
+    grid-column: 2/3;
+    grid-row: 3/5;
+    padding: 150px;
+}
+
+.canyonimg {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    border: 10px solid #396E94;
+    border-radius: 15%;
+}
+.ArizonaHead {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.ArizonaPara {
+    grid-column: 2/3;
+    grid-row: 5/7;
+    padding: 150px;
+}
+
+/*
+screen changer
+*/
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
