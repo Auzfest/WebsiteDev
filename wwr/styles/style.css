@@ -320,6 +320,11 @@ Contact us
     margin-top: 3em;
 }
 
+.contactHeader {
+    margin: 100px;
+    text-align: center;
+}
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
